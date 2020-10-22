@@ -40,4 +40,11 @@
     margin-top: 3%;
     margin-left: 15%;
     margin-right: 15%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.gallery h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-bottom: 3%;
 }
