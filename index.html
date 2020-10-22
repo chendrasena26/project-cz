@@ -1,13 +1,19 @@
 <html>
     <head>
         <title>Project CZ</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./assets/custom/css/custom-css.css">
         <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap-grid.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
+        <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+        <!-- <script src="./assets/custom/js/custom-js.js"></script> -->
     </head>
 
     <body>
         <!--navbar-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="navbar-new">
+          <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href=".">Project CZ</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -19,14 +25,67 @@
                 <a class="nav-link" href="#">Contact</a>
               </div>
             </div>
-        </nav>
+          </nav>
+        </div>
 
         <!--content : header-->
-        <div class="hehehe">
+        <section class="header">
           <div class="bg-image"></div>
           <div class="bg-text">
             <h1>Welcome to Project CZ</h1>
           </div>
-        </div>  
+        </section>
+
+        <!-- content : gallery -->
+        <section class="gallery">
+          <div class="row row-cols-1 row-cols-md-3">
+            <div class="col mb-4">
+              <div class="card" style="width: 20rem;">
+                <div class="card-header">
+                  Design 1
+                </div>
+                <img src="./assets/custom/picture/watercolour-flowers-4610095_640.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Moonlight Shadow</h5>
+                  <p class="card-text">Rp 69.000</p>
+                </div>
+                <div class="card-footer">
+                  <a href="#" class="btn btn-primary">Buy</a>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card" style="width: 20rem;">
+                <div class="card-header">
+                  Design 2
+                </div>
+                <img src="./assets/custom/picture/watercolour-flowers-4610095_640.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Sunshine Yellow</h5>
+                  <p class="card-text">Rp 69.000</p>            
+                </div>
+                <div class="card-footer">
+                  <a href="#" class="btn btn-primary">Buy</a>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card" style="width: 20rem;">
+                <div class="card-header">
+                  Design 3
+                </div>
+                <img src="./assets/custom/picture/watercolour-flowers-4610095_640.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Breezing Blue</h5>
+                  <p class="card-text">Rp 69.000</p>
+                </div>
+                <div class="card-footer">
+                  <a href="#" class="btn btn-primary">Buy</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
     </body>
 </html>
